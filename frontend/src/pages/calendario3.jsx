@@ -4,6 +4,11 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/calendario.scss'
 
+// AQUÍ SE DESARROLLA LA TABLA DEL MES DE SEPTIEMBRE Y SE PUEDE NAVEGAR SÓLO AL MES SIGUIENTE, 
+// CON LA FLECHA JUNTO AL NOMBRE DEL MES.
+// SE INGRESAN LAS TAREAS O EVENTOS QUE TIENE EL/LA ALUMNO/A EN DICHO MES, Y SE DESTACAN 
+// EN EL CALENDARIO CON UN COLOR AMARILLO.
+
 const contenidoCalendario=(
   <div className='contcalendario'>
 

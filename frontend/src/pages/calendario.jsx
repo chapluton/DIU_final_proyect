@@ -4,11 +4,17 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/calendario.scss'
 
+// AQUÍ SE DESARROLLA LA TABLA QUE SE ENCUENTRA EN LA PESTAÑA 'CALENDARIO' EN CADA ASIGNATURA. 
+// LA PÁG PRINCIPAL SERÁ DEL MES DE NOVIEMBRE, Y SE ACCEDE A MESES ANTERIORES POR MEDIO DE 
+// LAS FLECHAS QUE SE ENCUENTRAN JUNTO AL NOMBRE DEL MES.
+// SE INGRESAN LAS TAREAS O EVENTOS QUE TIENE EL/LA ALUMNO/A EN DICHO MES, Y SE DESTACAN 
+// EN EL CALENDARIO CON UN COLOR AMARILLO
+
 const contenidoCalendario=(
   <div className='contcalendario'>
 
       <div className='flechas'>
-        <a href='/calendario2'> &lt; </a> 
+        <a href='/calendario2'> &lt; </a>
           <h1 class="center-text">Noviembre</h1>
       </div>
 

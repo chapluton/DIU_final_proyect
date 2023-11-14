@@ -4,6 +4,11 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/calendario.scss'
 
+// AQUÍ SE DESARROLLA LA TABLA DEL MES DE OCTUBRE (MES ANTERIOR AL PRINCIPAL) Y SE PUEDE NAVEGAR
+// ENTRE EL MES ANTERIOR Y EL MES SIGUIENTE, CON LAS FLECHAS JUNTO AL NOMBRE DEL MES.
+// SE INGRESAN LAS TAREAS O EVENTOS QUE TIENE EL/LA ALUMNO/A EN DICHO MES, Y SE DESTACAN 
+// EN EL CALENDARIO CON UN COLOR AMARILLO.
+
 const contenidoCalendario=(
   <div className='contcalendario'>
 

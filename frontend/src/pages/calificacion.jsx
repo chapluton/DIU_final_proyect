@@ -4,6 +4,10 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/calificacion.scss'
 
+// AQUÍ SE DESARROLLA UNA TABLA DONDE SE ORGANIZAN LAS NOTAS DE TODAS
+// LAS EVALUACIONES DEL/LA ALUMNO/A, DE DICHA ASIGNATURA. ADEMÁS DE
+// LAS PONDERACIONES DE CADA UNA DE ELLAS, Y LA NOTA FINAL DE LA ASIGNATURA.
+
 const contenidoCalificacion=(
     <div className='contcalificacion'> 
         <table border="1">

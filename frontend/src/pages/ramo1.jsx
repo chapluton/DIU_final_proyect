@@ -4,6 +4,9 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/ramo.scss'
 
+// PÁGINA DE INFORMACIÓN GENERAL (PRIMERA PESTAÑA DE INGRESO A LA ASIGNATURA)
+// SÓLO HAY UN POCO DE DESCRIPCIÓN DE LA ASIGNATURA Y DETALLES ADMINISTRATIVOS.
+
 const ContenidoInfo= (
     <div className='contenidoinfo'>
       <div className='imagen-contenedor'>

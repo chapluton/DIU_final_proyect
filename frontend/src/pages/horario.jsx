@@ -4,6 +4,13 @@ import Footer from '../components/footer'
 import Carta from '../components/carta'
 import '../stylesheets/horario.scss'
 
+// AQUÍ SE DESARROLLA LA TABLA INTEGRADA EN LA PESTAÑA 'HORARIO'
+// DONDE SE MUESTRA EN QUÉ SALAS Y EN QUÉ BLOQUES EL/LA AMUNO/A 
+// DEBE ASISTIR A CLASES DE LA ASIGNATURA. ESTO PARA FACILITAR
+// EL TENER QUE RECURRIR CONSTANTEMENTE A SIGA PARA VER EL HORARIO PERSONAL.
+// LOS BLOQUES DONDE TIENE CLASES SE DESTACAN CON UN COLOR AMARILLO DENTRO 
+// DEL CALENDARIO.
+
 const contenidoHorario=(
   <div className='conthorario'>
 
