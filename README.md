@@ -8,6 +8,8 @@ Nombres:
 
 Video MVP: https://youtu.be/pDluFzeGRiE
 
+Primera versión de la plataforma: https://github.com/chapluton/DIU_proyect
+
 Videos de Testing realizados:
   - https://youtu.be/_QnlOFYJ7Kc
   - https://youtu.be/zH01oJvFFyI
