@@ -12,6 +12,7 @@ Videos de Testing realizados:
   - https://youtu.be/_QnlOFYJ7Kc
   - https://youtu.be/zH01oJvFFyI
   - https://youtu.be/LOoFyUEDTWs
+    
 Instrucciones:
   - Ejecutar comando "npm install" en la terminal, posicionándose en la carpeta 'frontend' en su pc.
   - Se ocupa el comando "npm run dev" para poder ejecutar la aplicación en un navegador web.
