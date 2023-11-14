@@ -1,0 +1,80 @@
+.carta {
+    padding: 90px 90px 30px;
+    height: 100%;
+    background: rgb(238, 245, 249);
+}
+
+.carta .titulo {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    height: auto;
+    border-radius: 5px;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 17px;
+    border: 1px solid rgb(230, 229, 229);
+}
+
+.carta .titulo .titulo-texto p{
+    font-size: 2.34375rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #455a64;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+
+.carta .titulo .mis-cursos a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #455a64;
+}
+
+.carta .titulo .mis-cursos a:hover{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.carta .contenido{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    border-radius: 5px;
+    border: 1px solid rgb(230, 229, 229);
+    padding: 30px 25px;
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    border-bottom: 1px solid #dee0e1;
+}
+
+.nav-item {
+    float: left;
+    display: block;
+    color: #0e3048;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;;
+}
+
+.nav-item:hover {
+    border-top: 1px solid #dee0e1;
+    border-left: 1px solid #dee0e1;
+    border-right: 1px solid #dee0e1;;
+}
+
+.carta .contenido .texto {
+    padding: 30px 50px;
+}
+
+.nav-item.active {
+    color: #495057;
+    background-color: #eef5f9;
+    border-color: #dee2e6 #dee2e6 #eef5f9;
+    font-weight: 600;
+  }

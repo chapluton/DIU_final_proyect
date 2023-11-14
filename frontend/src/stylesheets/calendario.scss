@@ -1,0 +1,69 @@
+.contcalendario {
+    text-align: center;
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 6.8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #0e3048;
+    color: #fff;
+}
+
+td {
+    height: 60px;
+}
+
+.flechas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flechas a{
+    text-decoration: none;
+    width: 60px;
+    font-size: 40px;
+}
+
+.dif{
+    background-color: #fff;
+}
+
+.firstweek-row {
+    background-color: #f4f4f4;
+}
+
+.fifth-row{
+    background-color: #f4f4f4;
+}
+
+.event{
+    background-color: #ffc;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+// .titulo{
+//     border: none;
+//     margin: 0%;
+//     padding: 0%;
+//     display: flex;
+//     align-items: center;
+//     box-sizing: border-box;
+// }

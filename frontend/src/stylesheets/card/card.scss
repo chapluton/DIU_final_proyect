@@ -1,0 +1,120 @@
+.card {
+    padding: 90px 90px 30px;
+    height: 100%;
+    background: rgb(238, 245, 249);
+}
+
+.card .titulo{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    font-size: 2.34375rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #455a64;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 17px;
+    border: 1px solid rgb(230, 229, 229);
+}
+
+.card .contenido{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    border-radius: 5px;
+    border: 1px solid rgb(230, 229, 229);
+    padding: 15px 25px;
+}
+
+.card .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 1;
+    grid-row: 1;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+  }
+
+  .one p{
+    font-size: 1.4rem;
+    color: #154466;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+
+  .one a{
+    text-decoration: none;
+  }
+
+  .one p:hover{
+    text-decoration: underline black;
+  }
+
+  .two {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+  }
+
+  .two a{
+    text-decoration: none;
+  }
+
+  .two p{
+    font-size: 1.4rem;
+    color: #154466;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+
+  .two p:hover{
+    text-decoration: underline black;
+  }
+
+  .bajo{
+    background: rgb(248, 248, 248);
+    border-top: 1px solid rgb(230, 229, 229);
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+
+  .bajo .boton{
+    background-color: #154466;
+    border-color: #154466;
+    color: white;
+    padding: 8px 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .bajo .boton:hover {
+    background-color: #0e3048;
+}
+
+.contenido .subtitulo p{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #455a64;
+    font-family: "Poppins",sans-serif;
+}

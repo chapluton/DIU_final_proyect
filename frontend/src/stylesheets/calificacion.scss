@@ -1,0 +1,41 @@
+.contcalificacion {
+    text-align: center;
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 6.8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #0e3048;
+    color: #fff;
+  }
+
+  .certamen-row {
+    background-color: #f4f4f4;
+  }
+
+  .tarea-row {
+    background-color: #fff;
+  }
+
+  .proyecto-row {
+    background-color: #f4f4f4;
+  }
+
+  .total-row {
+    background-color: #ffc;
+    font-weight: bold;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+}

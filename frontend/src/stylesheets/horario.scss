@@ -1,0 +1,35 @@
+.conthorario {
+    text-align: center;
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 6.8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #0e3048;
+    color: #fff;
+    width: 2%;
+    height: 50px;
+    padding: 4px;
+}
+
+.center-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.center-text2 {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffc;
+}

@@ -1,0 +1,23 @@
+.footer {
+    background: #eaedee;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    padding: 0 60px;
+    color: #455a64;
+    justify-content: center;
+}
+
+.footer a {
+    color: #154466;
+    text-decoration: none;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 0.95rem;
+}
